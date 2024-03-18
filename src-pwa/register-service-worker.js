@@ -33,6 +33,7 @@ register(process.env.SERVICE_WORKER_FILE, {
       message: 'Nova atualização disponivel',
       icon: 'mdi-cloud-download-outline',
       closeBtn: 'Atualizar',
+      color: 'primary',
       timeout: 10000,
       onDismiss () {
         // relaod com true ignora todo cache, tudo que vc tem é atualizado, tipo ctrl+_f5
