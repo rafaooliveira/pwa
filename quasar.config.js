@@ -140,7 +140,7 @@ module.exports = configure(function (ctx) {
     // https://v2.quasar.dev/quasar-cli-webpack/developing-pwa/configuring-pwa
     pwa: {
       workboxPluginMode: 'GenerateSW', // 'GenerateSW' or 'InjectManifest'
-      workboxOptions: { skipWaiting: true, clientClain: true }, // only for GenerateSW -> { skipWaiting: true, clientClain: true } -> Serve para atualizar e notificar o cliente para atualizar o PWA (PARA SER EFEITO É PRECISO ALTERAR O register-service-worker na parte de update) 
+      workboxOptions: { skipWaiting: true, clientsClaim: true }, // only for GenerateSW -> { skipWaiting: true, clientClain: true } -> Serve para atualizar e notificar o cliente para atualizar o PWA (PARA SER EFEITO É PRECISO ALTERAR O register-service-worker na parte de update) 
 
       // for the custom service worker ONLY (/src-pwa/custom-service-worker.[js|ts])
       // if using workbox in InjectManifest mode
