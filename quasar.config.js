@@ -151,9 +151,9 @@ module.exports = configure(function (ctx) {
       },
 
       manifest: {
-        name: 'Quasar App',
-        short_name: 'Quasar App',
-        description: 'A Quasar Project',
+        name: 'PWA',
+        short_name: 'PWA',
+        description: 'A Quasar PWAProject',
         display: 'standalone',
         orientation: 'portrait',
         background_color: '#ffffff',
